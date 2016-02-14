@@ -1,0 +1,21 @@
+<div class="col-md-6">
+    <h4>Cards</h4>
+    <div class="thumbnail" ng-repeat="card in creditCards">
+        <div class="row">
+            <div class="col-xs-4">
+                <a href="" ng-click=""><img class='tweet-image' alt="Brand" ng-src="{{card.image}}"></a>
+            </div>
+            <div class="col-xs-5">
+                <div class="caption-full">
+                    <a href="" ng-click=""><h6>{{card.name}} </h6></a>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                    <!-- <h3>Total Rewards</h3> -->
+                <div class="caption-full">
+                    <h3 id="reward" class="pull-right">{{card.rewards | currency:undefined:0}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
