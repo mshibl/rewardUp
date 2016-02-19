@@ -1,3 +1,4 @@
+![logo](http://s28.postimg.org/6bulurhdp/LOGO_PNG.png)
 
 ### What you're going to make
 Your mission: build a Twitter clone using Angular that consumes your sinatra api
